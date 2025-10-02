@@ -1,0 +1,23 @@
+import * as React from 'react';
+import Alert from '@mui/material/Alert';
+import Stack from '@mui/material/Stack';
+
+export function Success(params) {
+    return (
+        <Stack sx={{ width: '100%' }} spacing={2}>
+            <Alert  severity="success">{ "Success"}</Alert>
+        </Stack>
+    )
+}
+export function Warning(params) {
+     <Stack sx={{ width: '100%' }} spacing={2}>
+           <Alert severity="warning">`${params}`</Alert>
+        </Stack>
+}
+export function Error(params) {
+     <Stack sx={{ width: '100%' }} spacing={2}>
+           <Alert severity="error">`${params}`</Alert>
+        </Stack>
+}
+
+
