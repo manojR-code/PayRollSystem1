@@ -13,7 +13,7 @@ function Dashboard() {
   return (
     <div className="dashboard-container" style={{ marginTop: '40px' }}>
       <header className="dashboard-header">
-        <h2>Welcome Manoj</h2>
+        <h2>Welcome</h2>
         <p>All systems are running smoothly! You have <a href="#">3 unread alerts!</a></p>
         <div className="date-selector">
           <button><p>{date}</p></button>
