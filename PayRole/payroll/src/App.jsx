@@ -164,7 +164,7 @@ export default function MiniDrawer() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap component="div">
-              Manoj And Group
+              Akshay And Group
             </Typography>
             <Typography variant="h6" noWrap component="div" style={{ position: 'absolute', right: '20px', marginTop: '10px' }}>
               <h6>{date}</h6>
